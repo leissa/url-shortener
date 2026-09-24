@@ -1,7 +1,9 @@
-# URL Shortener (Plasma 6 widget)
+# URL Shortener (Plasma 6 Widget)
 
 Panel icon that pops up a small field: paste a URL, press Enter or *Shorten*,
 and get a short link back (da.gd, is.gd or TinyURL — whichever succeeds first) — optionally copied to the clipboard automatically.
+
+![URL Shortener](img/screenshot.png)
 
 ## Install
 
