@@ -11,7 +11,7 @@
         "Description": "Shorten URLs via da.gd, is.gd or TinyURL",
         "Icon": "insert-link",
         "Id": "org.kde.plasma.urlshortener",
-        "License": "GPL-2.0+",
+        "License": "MIT",
         "Name": "URL Shortener",
         "Version": "1.0"
     },

@@ -26,3 +26,7 @@ Right-click the icon → *Configure URL Shortener…* → *Keyboard Shortcuts*.
 
 Click the ⚙ button in the popup (or right-click → *Configure URL Shortener…*)
 and use the arrows to reorder the services. They are tried top to bottom.
+
+## License
+
+[MIT](LICENSE)
