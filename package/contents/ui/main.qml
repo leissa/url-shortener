@@ -12,6 +12,23 @@ PlasmoidItem {
     toolTipMainText: i18n("URL Shortener")
     toolTipSubText: i18n("Shorten a URL")
 
+    // Monochrome panel icon, tinted with the theme's text color like Breeze symbolic icons.
+    compactRepresentation: MouseArea {
+        property bool wasExpanded: false
+
+        hoverEnabled: true
+        onPressed: wasExpanded = root.expanded
+        onClicked: root.expanded = !wasExpanded
+
+        Kirigami.Icon {
+            anchors.fill: parent
+            source: Qt.resolvedUrl("../icons/url-shortener-symbolic.svg")
+            isMask: true
+            color: Kirigami.Theme.textColor
+            active: parent.containsMouse
+        }
+    }
+
     fullRepresentation: ColumnLayout {
         id: popup
 

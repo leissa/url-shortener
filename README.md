@@ -1,9 +1,9 @@
-# URL Shortener (Plasma 6 Widget)
+# <img src="package/contents/icons/org.kde.plasma.urlshortener.svg" width="48" align="top"> URL Shortener (Plasma 6 Widget)
 
 Panel icon that pops up a small field: paste a URL, press Enter or *Shorten*,
 and get a short link back (da.gd, is.gd or TinyURL — whichever succeeds first) — optionally copied to the clipboard automatically.
 
-![URL Shortener](img/screenshot.png)
+![URL Shortener](assets/screenshot.png)
 
 ## Install
 
@@ -32,10 +32,3 @@ and use the arrows to reorder the services. They are tried top to bottom.
 ## License
 
 The code is licensed under the [MIT License](LICENSE).
-
-## Credits
-
-![logo](img/logo.png)
-
-The logo (`img/logo.png`) is based on the `insert-link` icon from [Breeze Icons](https://invent.kde.org/frameworks/breeze-icons) by the KDE Visual Design Group, licensed under [LGPL-3.0-or-later](https://www.gnu.org/licenses/lgpl-3.0.html).
-It is not covered by the MIT License.
