@@ -24,6 +24,15 @@ Right-click the icon → *Configure URL Shortener…* → *Keyboard Shortcuts*.
 
     kpackagetool6 -t Plasma/Applet -r io.github.leissa.urlshortener
 
+## Build a .plasmoid package
+
+    ./package.sh
+
+This creates `url-shortener-<Version>.plasmoid` (the version comes from `package/metadata.json`),
+ready for upload to [store.kde.org](https://store.kde.org).
+Bump `Version` in `package/metadata.json` before building a new release.
+The package can also be installed directly with `kpackagetool6 -t Plasma/Applet -i url-shortener-<Version>.plasmoid`.
+
 ## Service order
 
 Click the ⚙ button in the popup (or right-click → *Configure URL Shortener…*)
