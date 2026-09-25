@@ -1,4 +1,4 @@
-# <img src="package/contents/icons/org.kde.plasma.urlshortener.svg" width="48" align="top"> URL Shortener (Plasma 6 Widget)
+# <img src="package/contents/icons/io.github.leissa.urlshortener.svg" width="48" align="top"> URL Shortener (Plasma 6 Widget)
 
 Panel icon that pops up a small field: paste a URL, press Enter or *Shorten*,
 and get a short link back (da.gd, is.gd or TinyURL — whichever succeeds first) — optionally copied to the clipboard automatically.
@@ -22,7 +22,7 @@ Right-click the icon → *Configure URL Shortener…* → *Keyboard Shortcuts*.
 
 ## Uninstall
 
-    kpackagetool6 -t Plasma/Applet -r org.kde.plasma.urlshortener
+    kpackagetool6 -t Plasma/Applet -r io.github.leissa.urlshortener
 
 ## Service order
 

@@ -4,14 +4,14 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this is
 
-A KDE Plasma 6 panel widget (plasmoid, id `org.kde.plasma.urlshortener`) written in pure QML + JavaScript. It has no build step, test suite or linter. Everything that gets installed lives under `package/`.
+A KDE Plasma 6 panel widget (plasmoid, id `io.github.leissa.urlshortener`) written in pure QML + JavaScript. It has no build step, test suite or linter. Everything that gets installed lives under `package/`.
 
 ## Commands
 
 - `plasmoidviewer -a package`: run the widget in a standalone window without installing it. This is the main way to test changes.
-- `./install.sh`: install the widget for the current user, or upgrade it if it's already installed (`kpackagetool6 -u`, falling back to `-i`). It also copies `contents/icons/org.kde.plasma.urlshortener.svg` (the colored logo, a copy of `img/logo.svg`) into `~/.local/share/icons/hicolor/scalable/apps/`, because the widget picker looks up the `Icon` from `metadata.json` only in the icon theme, never in the package. Run `systemctl --user restart plasma-plasmashell` if the panel still shows the old version.
+- `./install.sh`: install the widget for the current user, or upgrade it if it's already installed (`kpackagetool6 -u`, falling back to `-i`). It also copies `contents/icons/io.github.leissa.urlshortener.svg` (the colored logo, a copy of `img/logo.svg`) into `~/.local/share/icons/hicolor/scalable/apps/`, because the widget picker looks up the `Icon` from `metadata.json` only in the icon theme, never in the package. Run `systemctl --user restart plasma-plasmashell` if the panel still shows the old version.
 - `./package.sh`: build `url-shortener-<Version>.plasmoid` (a zip of `metadata.json` + `contents/`) for store.kde.org. The version is read from `package/metadata.json`.
-- `kpackagetool6 -t Plasma/Applet -r org.kde.plasma.urlshortener`: uninstall (also delete `~/.local/share/icons/hicolor/scalable/apps/org.kde.plasma.urlshortener.svg`).
+- `kpackagetool6 -t Plasma/Applet -r io.github.leissa.urlshortener`: uninstall (also delete `~/.local/share/icons/hicolor/scalable/apps/io.github.leissa.urlshortener.svg`).
 
 ## Architecture
 

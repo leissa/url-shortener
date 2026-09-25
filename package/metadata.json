@@ -9,8 +9,8 @@
         ],
         "Category": "Utilities",
         "Description": "Shorten URLs via da.gd, is.gd or TinyURL",
-        "Icon": "org.kde.plasma.urlshortener",
-        "Id": "org.kde.plasma.urlshortener",
+        "Icon": "io.github.leissa.urlshortener",
+        "Id": "io.github.leissa.urlshortener",
         "License": "MIT",
         "Name": "URL Shortener",
         "Version": "1.0"
