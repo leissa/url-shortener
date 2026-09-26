@@ -14,7 +14,7 @@
         "Id": "io.github.leissa.urlshortener",
         "License": "MIT",
         "Name": "URL Shortener",
-        "Version": "1.1",
+        "Version": "1.2",
         "Website": "https://github.com/leissa/url-shortener"
     },
     "X-Plasma-API-Minimum-Version": "6.0"
