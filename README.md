@@ -38,6 +38,10 @@ The package can also be installed directly with `kpackagetool6 -t Plasma/Applet 
 Click the ⚙ button in the popup (or right-click → *Configure URL Shortener…*)
 and use the arrows to reorder the services. They are tried top to bottom.
 
+## Disclaimer
+
+This plugin was mostly created with the help of AI.
+
 ## License
 
 The code is licensed under the [MIT License](LICENSE).
