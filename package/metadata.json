@@ -10,7 +10,7 @@
         "BugReportUrl": "https://github.com/leissa/url-shortener/issues",
         "Category": "Utilities",
         "Description": "Shorten URLs via da.gd, is.gd or TinyURL",
-        "Icon": "io.github.leissa.urlshortener",
+        "Icon": "/icons/io.github.leissa.urlshortener.svg",
         "Id": "io.github.leissa.urlshortener",
         "License": "MIT",
         "Name": "URL Shortener",
